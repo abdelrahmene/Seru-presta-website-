@@ -53,7 +53,7 @@ const services = [
   }
 ];
 
-const projects = [
+const _projects = [
   {
     title: 'Escalier Design',
     description: 'Escalier hélicoïdal en acier et verre',

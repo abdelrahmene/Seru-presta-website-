@@ -1,6 +1,7 @@
 'use client';
 import { motion } from 'framer-motion';
-import { FaCog, FaWarehouse, FaGarage, FaIndustry, FaMobile, FaShieldAlt } from 'react-icons/fa';
+import { FaCog, FaWarehouse, FaIndustry, FaMobile, FaShieldAlt } from 'react-icons/fa';
+import { BsGearFill } from 'react-icons/bs';
 
 const solutions = [
   {
@@ -29,7 +30,7 @@ const solutions = [
   },
   {
     id: 'garage',
-    icon: FaGarage,
+    icon: BsGearFill,
     title: 'Portes de Garage',
     description: 'Automatisation de portes de garage sectionnelles et basculantes',
     features: [
